@@ -1,0 +1,50 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.hero.header-image { background-color: #1a31b7; }
+.is-outlined { background-color: transparent; color: #fff; transition: color .05s; }
+.feature { margin: auto; }
+
+.featured {
+	position: relative;
+	display: inline-block;
+	background-color: #d52349;
+	width: 9em;
+	padding: 1.75em 0 0.75em 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin: 4.5em auto;
+	cursor: default;
+}
+.featured:before {
+	font-size: 4.5em;
+	line-height: 1em;
+	color: #fff;
+}
+.featured:after {
+	content: '';
+	position: absolute;
+	bottom: -1.95em;
+	left: 0;
+	border-top: solid 2em #d52349;
+	border-left: solid 4.5em transparent;
+	border-right: solid 4.5em transparent;
+}
+.is-fullheight { min-height: 100vh; }
+.form .label { color: #fff; }
+form { max-width: 60em; }
+label.error { color: #ff3860; }
+.jq-toast-single strong { color: #fff; }
+.tc { text-align: center; }
+
+.hero.is-medium .hero-body.form { padding-bottom: 3rem; padding-top: 3rem; }
+.paypal.hero-body.form { border-bottom: 9px solid #fff; }
+.paypal .item { display: inline-block; vertical-align: top; }
+.paypal input[type=image] { margin-top: 2em; }
+
+#form-error, #form-success { display: inline-block; margin-left: 15px }
+#form-error { color: #ff3860; }
+
+.button.is-primary {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}

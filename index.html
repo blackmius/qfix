@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>Q Fix Pro</title>
+    <link href="assets/icon.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <section class="hero is-primary header-image is-fullheight">
+    	<div style="background-color: #000944; height: 24pt"></div>
+        <img src="assets/bg.png">
+        <div class="hero-body">
+            <div class="container has-text-centered animated zoomIn">
+                <h1 class="title is-2">Welcome to Q Fix Pro</h1>
+                <h2 class="subtitle is-5">Do you get connectivity and screen freezing issues with your SKY Q Mini receivers? — You are not alone.</h2>
+                <p><a class="button is-outlined" id="learnMoreButton">Learn more »</a></p>
+            </div>
+        </div>
+    </section>
+    <div class="section is-fullheight" id="main">
+        <section class="hero">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title">We have a simple and effective solution that works.</h1>
+                    <h2 class="subtitle">With QFix you can enjoy uninterrupted SKY Q viewing.</h2></div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <article class="has-text-centered feature is-8 is-vertical tile"><i class="fa featured fa-flash"></i>
+                        <p class="title">Fast and reliable</p>
+                        <p class="subtitle">Our solution is much faster and more reliable than SKY's wireless connection. With a faster and stable connection you can enjoy the SKY Q TV experience without frustration.</p>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="has-text-centered feature is-8 is-vertical tile"><i class="fa featured fa-cog"></i>
+                        <p class="title">Tidy solution</p>
+                        <p class="subtitle">Instead of using WiFi or long unsightly network cables - we’ve developed a system that stops all connectivity or freezing issues.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="hero is-primary is-bold is-medium">
+        <div class="hero-body form">
+
+        	<div class="container">
+        		<h1 class="title">Place an order</h1>
+        		<h2 class="subtitle">based on your current configuration</h2>
+        		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="DM6KY87P9N4S8">
+					<input type="hidden" name="on0" value="Number of devices">
+
+					<div class="field is-horizontal">
+						<div class="field-label is-normal">
+                            <label class="label">My configuration is</label>
+                        </div>
+                        <div class='field-body'>
+							<span class="select">
+								<select name="os0">
+									<option value="SkyQ + 1 x mini receiver">SkyQ + 1 x mini receiver £98.60 GBP</option>
+									<option value="SkyQ + 2 x mini receivers">SkyQ + 2 x mini receivers £145.85 GBP</option>
+									<option value="SkyQ + 3 mini receivers">SkyQ + 3 mini receivers £192.50 GBP</option>
+									<option value="SkyQ + 4 mini receivers">SkyQ + 4 mini receivers £239.00 GBP</option>
+									<option value="SkyQ + 5 mini receivers">SkyQ + 5 mini receivers £286.00 GBP</option>
+								</select>
+							</span>
+						</div>
+					</div>
+
+					<input type="hidden" name="currency_code" value="GBP">
+
+					<div class="field is-horizontal">
+                        <div class="field-label"></div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <button type='submit' class="is-primary button">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</form>
+        	</div>
+        	<br><br>
+
+            <div class="container">
+                <h1 class="title">Request a call</h1>
+                <form id="callForm" novalidate="novalidate">
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">From</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field is-grouped">
+                                <p class="control has-icons-left is-expanded">
+                                    <input class="input" name="firstname" placeholder="Firstname"> <span class="icon is-left is-small"><i class="fa fa-user"></i></span></p>
+                            </div>
+                            <div class="field">
+                                <input class="input" name="lastname" placeholder="Lastname">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Phone</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control has-icons-left">
+                                    <input class="input error" name="phone" type="tel"> <span class="icon is-left is-small"><i class="fa fa-phone"></i></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Email</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control has-icons-left">
+                                    <input class="input" name="email" type="email"> <span class="icon is-left is-small"><i class="fa fa-envelope"></i></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label"></div>
+                        <div class="field-body">
+                            <div class="field">
+                                    <div id='g-recaptcha'></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="field is-horizontal">
+                        <div class="field-label"></div>
+                        <div class="field-body">
+                            <div class="field">
+                                    <button class="is-primary button" id="submit">Submit</button>
+                                    <div id='form-error'></div>
+                                    <div id='form-success'></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="columns">
+            <div class="column is-4">
+                <div class="content">
+                    <p><strong>Contact us</strong></p>
+                    <div>By telephone: <a href="tel:03300102365">03300 102 365</a></div>
+                    <p>By email: <a href="mailto:sales@qfix.pro">sales@qfix.pro</a></p>
+                </div>
+            </div>
+            <div class="column is-4">
+            	<div class="content">
+            		<p><strong>Address</strong></p>
+            		<div>"Westlands"</div>
+            		<div>The Street</div>
+            		<div>Frampton-on-Severn</div>
+            		<div>Gloucester</div>
+            		<div>GL2 7ED</div>
+            	</div>
+            </div>
+            <div class="column is-4">
+            	<div class="content">
+            		<p><strong>Legal</strong></p>
+            		<p>This site uses cookies</p>
+            	</div>
+            </div>
+        </div>
+        <br><br>
+		<p>Designed and developed by <a href="http://blackmius.ru">Blackmius</a></p>
+		<p>© 2017 QFixPro. All rights reserved.</p>
+    </footer>
+
+    <script src='https://www.google.com/recaptcha/api.js?onload=recaptchaOnload&render=explicit'></script>
+</body>
+
+</html>
